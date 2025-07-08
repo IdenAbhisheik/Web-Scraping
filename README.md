@@ -1,6 +1,41 @@
-# Web-Scraping
-The objective of this project is to collect relevant used car data from the Cars24 website, 
-specifically for the Chennai region. The data includes car model, kilometers driven, year of 
-manufacture, fuel type, transmission, and price. This dataset will be used for further 
-analysis using Power BI to derive insights on pricing trends, usage patterns, and popular 
-fuel types. 
+# 🚗 Web Scraping Car Details
+
+This project uses **Python**, **Selenium**, and **BeautifulSoup** to scrape used car listings from [Cars24](https://www.cars24.com/) for analysis. It extracts key information such as:
+
+- Car Name / Title  
+- Year of Manufacture  
+- Kilometers Driven  
+- Fuel Type  
+- Transmission  
+- Price  
+
+The scraped data is saved into a **CSV file** for further analysis or visualization.
+
+---
+
+## 📌 Features
+
+- Handles dynamic web content using Selenium WebDriver  
+- Parses HTML using BeautifulSoup  
+- Exports structured data into CSV format  
+- Error handling for missing data  
+- Modular, readable code
+
+---
+
+## 🧰 Technologies Used
+
+- Python  
+- Selenium  
+- BeautifulSoup  
+- Pandas  
+- ChromeDriver
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository  
+```bash
+git clone https://github.com/IdenAbhisheik/Web-Scraping.git
+cd Web-Scraping
